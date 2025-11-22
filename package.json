@@ -1,0 +1,17 @@
+{
+  "name": "vlc-platform",
+  "version": "1.0.0",
+  "description": "VLC - Vibe Learning Cards Platform",
+  "private": true,
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview",
+    "lint": "cd frontend && npm run lint",
+    "import-tasks": "node import.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.6.0"
+  },
+  "devDependencies": {}
+}
